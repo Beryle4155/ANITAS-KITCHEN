@@ -3,5 +3,10 @@
 }
 
 .jumbotron{
-background: url("../images/assets/backgrounds/landing.jpg");
+  background: url("../images/landing.jpg");
+  margin-bottom: auto;
+  background-size: cover;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
 }
