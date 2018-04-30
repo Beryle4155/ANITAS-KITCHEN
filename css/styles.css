@@ -1,14 +1,71 @@
 .container{
   text-align: center;
-}
+  padding: 0px;
+ }
 .container2{
 
 }
+.centered{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+
+}
+h10{
+  font-size:30px;
+  text-align: center;
+}
+.PARTY{
+  background-color: #f15a29;
+  font-size: 24px;
+  height: 90px;
+  width: 100%
+}
+.HAPPY{
+  background-color: white;
+  font-size: 24px;
+  height: 90px;
+  width: 100%;
+}
 .jumbotron{
+  text-align: center;
   background: url("../images/landing.jpg");
-  margin-bottom: auto;
+  background-size: cover;
+  margin: 0px;
+  height: 600px;
+  padding-top: 0px;
+  padding:0px;
+  width: 100%;
+
+  /* margin-bottom: auto;
   background-size: cover;
   margin-left: 0px;
   margin-right: 0px;
-  width: 100%;
+  width: 100%; */
+}
+.pg{
+  text-align:center;
+}
+h9{
+  color:#ffffff;
+}
+.container-fluid-2{
+  background-image:url("../images/subscribe.jpg");
+  padding: 105px;
+  text-align: center;
+}
+.container-fluid-3{
+  background-color: #F15A29;
+  text-align: center;
+}
+.container-fluid-4{
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white
+}
+h8{
+  color:white;
 }
