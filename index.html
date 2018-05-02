@@ -8,12 +8,20 @@
 </head>
 <body>
   <div class="header">
+    <span style="font-size:24px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+    <div id="mysidenav" class="sidenav" style="text-align:center">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">SERVICES</a>
+      <a href="#">CLIENTS</a>
+      <a href="#">CONTACT</a>
+    </div>
     <div >
       <img src="images/logoBig.png" alt="">
       <h1 style="color:#ffffff;">We Provide The Best Food<br>At The <b>Right Price</b></br></h1>
     </div>
   </div>
-  <div class="container" class="rows">
+  <div class="header2">
     <div class="col-md-12">
         <div class="col-md-3">
           <div class="HAPPY">
@@ -126,5 +134,13 @@
 </div>
 <script src="js/jQuery-3.3.1.js"></script>
 <script src="js/scripts.js"></script>
+<script>
+  function openNav(){
+    document.getElementById("mysidenav").style.width ="100vw"
+  }
+  function closeNav(){
+    document.getElementById("mysidenav").style.width ="0"
+  }
+</script>
 </body>
 </html>
