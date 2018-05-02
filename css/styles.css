@@ -1,10 +1,9 @@
 .container{
   text-align: center;
-  padding: 0px;
+  position: relative;
+  width: 100%;
+  display: block;
  }
-.container2{
-
-}
 .centered{
   position: absolute;
   top: 50%;
@@ -19,7 +18,7 @@ h10{
 }
 .PARTY{
   background-color: #f15a29;
-  font-size: 24px;
+  font-size: 30px;
   height: 90px;
   width: 100%
 }
@@ -29,21 +28,13 @@ h10{
   height: 90px;
   width: 100%;
 }
-.jumbotron{
+.header{
   text-align: center;
   background: url("../images/landing.jpg");
   background-size: cover;
-  margin: 0px;
-  height: 600px;
-  padding-top: 0px;
+  height: 500px;
   padding:0px;
   width: 100%;
-
-  /* margin-bottom: auto;
-  background-size: cover;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%; */
 }
 .pg{
   text-align:center;
